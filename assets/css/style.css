@@ -122,9 +122,6 @@ button[type="submit"] {
 }
 
 .game {
-    width: 280px;
-    height: 200px;
-    background: gray;
     position: relative
 }
 
@@ -133,23 +130,13 @@ button[type="submit"] {
     height: 100%;
 }
 
-.game:first-child {
-    float: left;
-}
-
-.game:nth-child(2) {
-    float: right;
-}
 
 .description {
-    width: 100%;
     background: #4aaaa5;
     color: lightgray;
     font-family: 'Georgia', Times, Times New Roman, serif;
     font-weight: bold;
-    padding: 15px 0;
-    text-align: center;
-    position: absolute;
+    width: 90%;
     bottom: 5px;
 }
 
