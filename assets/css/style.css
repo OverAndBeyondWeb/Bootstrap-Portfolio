@@ -16,6 +16,10 @@ body {
     position: relative;
 }
 
+li {
+    list-style: none;
+}
+
 
 
 .header-font {
@@ -85,81 +89,9 @@ nav li {
     border: none;
 }
 
-.content::after {
-    content: "";
-    display: block;
-    clear: both;
-    height: 50px;
- }
-
-article {
-    float: left;
-    width: 650px;
-    background: white;
-    margin: 20px 0;
-    padding: 25px 20px;
-    border: 1px solid #ccc;
-}
-
-.article-heading {
-    color: #4aaaa5;
-    font-family: 'Georgia', Times, Times New Roman, serif;
-    font-size: 24px;
-    font-weight: bold;
-    margin-bottom: 20px;
-    padding-bottom: 20px;
-    border-bottom: 2px solid #ccc;
-}
-
-article img {
-    margin-right: 15px;
-    vertical-align: top;
-}
-
-article p {
-    line-height: 1.5;
-    vertical-align: top;
-}
-
 .profile-pic {
-    float: left;
-}
-
-aside {
-    float: right;
-    width: 270px;
-    background: white;
-    margin: 20px 0;
-    padding: 25px 20px;
-    border: 1px solid #ccc;
-    text-align: center;
-}
- 
-.sidebar-heading {
-    color: #4aaaa5;
-    font-family: 'Georgia', Times, Times New Roman, serif;
-    font-size: 20px;
-    font-weight: bold;
-    margin-bottom: 15px;
-    padding-bottom: 20px;
-    border-bottom: 1px solid #ccc;
-}
-
-.icon {
-    width: 60px;
-    height: 60px;
-    background: gray;
-    float: left;
-    margin-right: 24px;
-}
-
-.icon:last-child {
-    margin-right: 0;
-}
-
-.icon img {
-    width: 100%;
-    height: 100%;
+    width: 180px;
+    height: 150px;
 }
 
 input[type="text"], input[type="email"] {
